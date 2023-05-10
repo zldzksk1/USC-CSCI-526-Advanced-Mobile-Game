@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8573255648176933722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8573255648176933724}
+  - component: {fileID: 8573255648176933723}
+  - component: {fileID: 4758227301315542882}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8573255648176933724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573255648176933722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8573255648176933723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573255648176933722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877652a55659fc1459a9b1bf53c380e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UICanvas: {fileID: 0}
+  grappleText: {fileID: 0}
+  levelCompleteText: {fileID: 0}
+  player: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  pauseCanvas: {fileID: 0}
+  sensValue: {fileID: 0}
+  leftClickPrompt: {fileID: 0}
+  placeablePointsLeft: {fileID: 0}
+  elementImage: {fileID: 0}
+  crosshair: {fileID: 0}
+  initialOrientation: {x: 0, y: 0, z: 0, w: 0}
+  coinsInLevel: 4
+  grappleLaunchLeft: 7
+  deathCount: 0
+  attemptTimer: 0
+  levelCompleted: 0
+  canStart: 1
+  playerCamera: {fileID: 0}
+  playerSens: 1
+  numberResultPrefab: {fileID: 5049347089722662716, guid: fc88d0f479cf34f84a13697c791639a7,
+    type: 3}
+  isPaused: 0
+  goalObject: {fileID: 0}
+  coinsLeftText: {fileID: 0}
+  firstSwing: 0
+  lasers: {fileID: 0}
+  levelGameObjs: {fileID: 0}
+  grapplePointNames: 
+  grapplePointValues: 
+  coinNames: 
+  coinValues: 
+  laserNames: 
+  laserValues: 
+  hasGrappledAPoint: 0
+  hasGrabbedCoin: 0
+  spawnedGrapplePoints: 0
+  ammoDamage: 20
+  ammoCount: 0
+--- !u!114 &4758227301315542882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573255648176933722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b4ac098d3f7314a946474cd9f975be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAsLocked: 
+  unlockMsg: []
+  lockMsg: []
