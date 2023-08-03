@@ -6,6 +6,8 @@ Our team implemented Spiderman-inspired themed platformer where the player swing
 You are able to grab math collectables to defeat enemies while improving your math skills in the process. As you go, the levels get more and more complex, with different obstacles and challenges in your way.
 * I modified some of prefabs' design
 
+* Play here: https://zldzksk1.github.io/USC-CSCI-526-Advanced-Mobile-Game-Build/
+
 Engin: Unity <br>
 Language: C#
 
